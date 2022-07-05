@@ -1,5 +1,5 @@
 
-Hallo aus .....Frudoland (05.07.2022)
+Hallo aus .....Marumland (05.07.2022)
 
 Das ist ein Testprojekt um Git und Fuktionen
 (https://github.com/ -> Benutzeremail: f.....@aromatico.de , Passwort: Q....2)
