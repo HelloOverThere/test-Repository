@@ -1,1 +1,4 @@
-Hallo aus Bremen
+Hallo aus .....Frudoland
+Das ist ein Testprojekt um Git
+(https://github.com/ -> Benutzeremail: f.....@aromatico.de , Passwort: Q....2) und
+Fuktionen zu wiederholen und besser zu verstehen (bzg. Commits, Push, Pull, etc...)
