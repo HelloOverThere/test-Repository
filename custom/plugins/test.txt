@@ -1,4 +1,7 @@
-Hallo aus .....Frudoland
-Das ist ein Testprojekt um Git
-(https://github.com/ -> Benutzeremail: f.....@aromatico.de , Passwort: Q....2) und
-Fuktionen zu wiederholen und besser Kommandos zu verstehen (bzg. Commits, Push, Pull, etc...)
+
+Hallo aus .....Frudoland (05.07.2022)
+
+Das ist ein Testprojekt um Git und Fuktionen
+(https://github.com/ -> Benutzeremail: f.....@aromatico.de , Passwort: Q....2)
+zu wiederholen und besser Kommandos
+zu verstehen (bzg. Commits, Push, Pull, etc...)
