@@ -6,12 +6,7 @@
 
     {* Copyright *}
     {block name="frontend_index_shopware_footer_copyright"}
-    
-    <div>
-    
-    <spam> Test Test !!!!!!!!!!! </spam>
-    
-    </div>
+
 
         <div class="footer--copyright">
 {*          ---------     Shopware Textbaustein (original)     --------------        *}
