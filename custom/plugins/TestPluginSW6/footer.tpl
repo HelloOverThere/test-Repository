@@ -6,6 +6,12 @@
 
     {* Copyright *}
     {block name="frontend_index_shopware_footer_copyright"}
+    
+    <div>
+    
+    <spam> Test Test !!!!!!!!!!! </spam>
+    
+    </div>
 
         <div class="footer--copyright">
 {*          ---------     Shopware Textbaustein (original)     --------------        *}
@@ -76,88 +82,7 @@ Viele Tipps und Tricks eine schnelle Lösung zu finden  Unter : https://develope
     <br>
 
     ========================================  Versuch 1  ===================================            ==========
-    <p>Es gibt eine verborgene Nachricht für Sie. Klicken Sie, um es zu sehen.</p>
-    <button onclick="myFunction()">Klicken!</button>
-    <p id="demo"></p>
-    <script>
-        function myFunction() {
-            document.getElementById("demo").innerHTML = "Hallo lieber Besucher!</br> " +
-                "Test test";
-        }
-    </script>
-    <br>
-    <br>
-    ========================================  Versuch 2  ===================================            ============
-    <br>
-    <br>
-    <button id="download" type="button" onclick="csvExport()" name="button">CSV Datei</button>
-    <script>
-        function exportCSV() {
-            $profs = $this => getAllDozent();
-            $profs = json_decode($profs, true);
-            $currentID = 0;
-            $csv = "IDDOZENT,IDVERANSTALTUNG,BEZEICHNUNG,SWS,CREDITS,HAEUFIGKEIT_PA,FAKTOR_DOPPELUNG,SOMMER,WPF,KOSTEN_PA,\n";
 
-            // Iteriere durch Professor Array
-            foreach($profs
-            as
-            $key => $value
-        )
-            {
-                $currentID = $value['IDDOZENT'];
-
-                //Hole für ID die Veranstaltungen
-                $veranstaltungen = $this => getVeranstaltungenByID($currentID);
-                $veranstaltungen = json_decode($veranstaltungen, true);
-
-                //Nur wenn Veranstaltungen da sind, abrufen.
-                if ($veranstaltungen != "NULL") {
-                    foreach($veranstaltungen
-                    as
-                    $key => $value
-                )
-                    {
-                        $csv = $csv.$currentID.
-                        ","
-                            .$value['IDVERANSTALTUNG'].
-                        ","
-                            .$value['BEZEICHNUNG'].
-                        ","
-                            .$value['SWS'].
-                        ","
-                            .$value['CREDITS'].
-                        ","
-                            .$value['HAEUFIGKEIT_PA'].
-                        ","
-                            .$value['FAKTOR_DOPPELUNG'].
-                        ","
-                            .$value['SOMMER'].
-                        ","
-                            .$value['WPF'].
-                        ","
-                            .$value['KOSTEN_PA'].
-                        "\n";
-                    }
-                }
-            }
-
-            return $csv;
-
-
-            function csvExport(){
-                var xmlhttp = new XMLHttpRequest();
-                xmlhttp.onreadystatechange = function() {
-                    if (this.readyState == 4 && this.status == 200){
-                        console.log(this.responseText);
-                    }
-                };
-                xmlhttp.open("GET", "csvExport.php", true);
-                xmlhttp.send();
-            }
-    </script>
-    <br>
-    <br>
-    ========================================  Versuch 3  ===================================            =============
     <br>
     <br>
 
